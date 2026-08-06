@@ -1,0 +1,18 @@
+{
+  "name": "discord-scan-bot",
+  "version": "1.0.0",
+  "description": "Discord bot for manga/scan auction and assignment management",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.16.3",
+    "pg": "^8.13.1",
+    "dotenv": "^16.4.7",
+    "node-cron": "^3.0.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
